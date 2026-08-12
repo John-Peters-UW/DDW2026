@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=7 fabric run chammi_finetune.py --model-name convnext_100epoch --data-path /scr/data/CHAMMI/ --metadata-path ./label_meta_multi.csv --devices 1 --accelerator cuda --precision bf16
